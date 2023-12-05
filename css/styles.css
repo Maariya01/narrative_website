@@ -11521,21 +11521,29 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #0A1069;
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #fff;
+    color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #fff;
+    color: #000;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #A7DED9;
+    color: #64a19d;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #64a19d;
+    outline: none;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #A7DED9;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #A7DED9;
@@ -11660,7 +11668,7 @@ body {
   letter-spacing: 0.8rem;
 }
     /* Applying halo effect to h1 and h2 */
-    h1, h2 {
+    h1 , h2 {
     text-shadow: 2px 2px 15px rgba(255, 255, 255, 0.7);
     }
 
