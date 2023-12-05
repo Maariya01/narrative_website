@@ -96,9 +96,9 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
-  background-color: currentColor;
+  background-color: #0A1069;
   border: 0;
-  opacity: 0.25;
+  opacity: 0.3;
 }
 
 hr:not([size]) {
@@ -8092,7 +8092,7 @@ textarea.form-control-lg {
 }
 
 .rounded {
-  border-radius: 2.25rem !important;
+  border-radius: 0.4rem !important;
 }
 
 .rounded-0 {
