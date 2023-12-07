@@ -126,7 +126,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -492,7 +492,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -11772,3 +11772,4 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
