@@ -12080,6 +12080,8 @@ blockquote {
 /* Quote background */
 .bg-gradient-primary-to-secondary {
   background: linear-gradient(20deg, #A7DED9, #0A1069) !important;
+  font-style: italic;
+  letter-spacing: 2px;
 }
 /* End of quote background */
 
@@ -12099,3 +12101,33 @@ body {
   line-height 2px;
   
 }
+/* Custom styling for Code snippet columns*/
+.card-body-custom {
+  background-color: #0A1069;
+}
+
+.card-title-custom {
+  color: white;
+  font-size: 50px;
+}
+
+.card-text-custom {
+  color: #A7DED9;
+  font-size: 25px;
+}
+.card-body-custom2 {
+  background-color: #fff;
+}
+
+.card-title-custom2 {
+  color: #A7DED9;
+  font-size: 50px;
+}
+
+.card-text-custom2 {
+  color: #0A1069;
+  font-size: 25px;
+}
+
+
+
